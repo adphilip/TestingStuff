@@ -14,8 +14,6 @@ public class TestingStuff {
 	 */
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
 		
 		
 		try {
@@ -25,6 +23,22 @@ public class TestingStuff {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
+		String s = "abcdef";
+		
+		//Strings in others - anagrama
+		String[] anStringArray = new String[6];
+		
+		anStringArray[0] = "adfaff";
+		anStringArray[1] = "abcdef";
+		anStringArray[2] = "adfaff";
+		anStringArray[3] = "adfaff";
+		anStringArray[4] = "adgaff";
+		anStringArray[5] = "adfaff";
+		
+		//TODO: indexof
+		//TODO: in other class
+		
 
 	}
 
