@@ -4,14 +4,19 @@ import java.util.ArrayList;
 
 public class Cat extends Animals{
 	private String nameAnimal = "abcdef";
-//	ArrayList<String> aString = new ArrayList<>();
-//	
+	private ArrayList<String> aString = new ArrayList<String>();
+
 //	//add elements to 
-//	aString.add("aaa");
+	public void addArrayL(String s) {
+		aString.add(s);
+	}
 	
+	public ArrayList<String> getaString (){
+		return aString;
+	}
 	
 	public void getName(){
-		System.out.println(" CAT extended class -> Nume animal: " + nameAnimal);
+		System.out.println("CAT extended class -> Nume animal: " + nameAnimal);
 	}
 
 
