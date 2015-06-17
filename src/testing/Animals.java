@@ -11,6 +11,7 @@ public class Animals {
 		System.out.println("Nume animal:" + nameAnimal);
 	}
 
+	//fafadf
 
 	public void addArrayL(String string) {
 		// TODO Auto-generated method stub
