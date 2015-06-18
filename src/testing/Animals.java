@@ -2,7 +2,7 @@ package testing;
 
 import java.util.ArrayList;
 
-public class Animals {
+public class Animals implements ForAnimal{
 	
 	private String nameAnimal = "Animal"; 
 			
@@ -24,4 +24,11 @@ public class Animals {
 		return null;
 	}
 
+	@Override
+	public double getPI() {
+		// TODO Auto-generated method stub
+		return PI;
+	}
+
 }
+

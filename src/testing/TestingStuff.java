@@ -23,6 +23,7 @@ public class TestingStuff {
 			animalInst.getName();
 			animalInst.addArrayL("InMain");
 			System.out.println("Array list from CAT: " + animalInst.getaString());
+			System.out.println("Array list from Interface: " + animalInst.getPI());
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
