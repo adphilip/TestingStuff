@@ -24,6 +24,10 @@ public class TestingStuff {
 			animalInst.addArrayL("InMain");
 			System.out.println("Array list from CAT: " + animalInst.getaString());
 			System.out.println("Array list from Interface: " + animalInst.getPI());
+			
+			//Static attribute - print element
+			System.out.println("Print a static element " + Animals.oneStaticString );
+			
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -52,8 +56,15 @@ public class TestingStuff {
 				
 		}
 		
-
+		//Problem with find out unique char (Amazon)
+		/*
+		 * http://javahungry.blogspot.com/2013/12/first-non-repeated-character-in-string-java-program-code-example.html
+		 * http://javahungry.blogspot.com/2013/06/top-25-most-frequently-asked-core-java.html
+		 */
 		
+		NoRepeatedCharInAString charStringInstance = new NoRepeatedCharInAString();
+		charStringInstance.usingBufferedReader();
+		charStringInstance.charCount();
 
 	}
 
