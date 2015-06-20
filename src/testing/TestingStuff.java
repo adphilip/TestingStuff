@@ -65,6 +65,7 @@ public class TestingStuff {
 		NoRepeatedCharInAString charStringInstance = new NoRepeatedCharInAString();
 		charStringInstance.usingBufferedReader();
 		charStringInstance.charCount();
+		//TODO: Search and print the char
 
 	}
 
