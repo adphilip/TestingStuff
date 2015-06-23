@@ -66,6 +66,7 @@ public class TestingStuff {
 		charStringInstance.usingBufferedReader();
 		charStringInstance.charCount();
 		//TODO: Search and print the char
+		//afasdf
 
 	}
 
