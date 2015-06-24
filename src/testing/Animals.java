@@ -28,6 +28,7 @@ public class Animals implements ForAnimal{
 	@Override
 	public double getPI() {
 		// TODO Auto-generated method stub
+		// ok ?
 		return PI;
 	}
 
