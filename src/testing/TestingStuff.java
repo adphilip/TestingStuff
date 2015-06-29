@@ -67,6 +67,20 @@ public class TestingStuff {
 		charStringInstance.charCount();
 		//TODO: Search and print the char
 		//afasdf
+		
+		/**
+		 * Vector Testing
+		 */
+		
+		TestingVector testVector = new TestingVector();
+		testVector.printCapacity();
+		testVector.addVectorElementInt(4);
+		testVector.addVectorElementInt(5);
+		testVector.printCapacity();
+		testVector.addVectorElementDouble(4.8);
+		testVector.addVectorElementDouble(5.9);
+		testVector.printCapacity();
+		
 
 	}
 
