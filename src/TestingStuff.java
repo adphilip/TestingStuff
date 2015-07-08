@@ -5,6 +5,9 @@
 
 import java.util.ArrayList;
 
+import MVC.StudentController;
+import MVC.StudentModel;
+import MVC.StudentView;
 import factory.Shape;
 import factory.ShapeFactory;
 import singleton.SingleObject;
@@ -115,6 +118,27 @@ public class TestingStuff {
 		System.out.println("\n------Singleton Pattern-------\n");
 		SingleObject object = SingleObject.getInstSO();
 		object.ShowSomething();
+		
+		/**
+		 * MVC Design patterns
+		 * 
+		 */
+		System.out.println("\n------MVC Pattern-------\n");
+//		   private static StudentModel retriveStudentFromDatabase(){
+//			      StudentModel student = new StudentModel();
+//			      student.setName("Robert");
+//		
+//			      return student;
+//			   }
+		   
+		   StudentModel model = new StudentModel();		   
+		   StudentView view = new StudentView();
+		   
+		   StudentController controllerStudent = new StudentController(model, view);
+		   
+		   controllerStudent.setStudentNameController("Vasile");
+		   controllerStudent.updateView();
+		   
 	}
 
 }
