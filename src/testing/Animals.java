@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Animals implements ForAnimal{
 	
 	private String nameAnimal = "Animal"; 
-	static String oneStaticString = "AAAa";
+	public static String oneStaticString = "AAAa";
 			
 	
 	public void getName(){
