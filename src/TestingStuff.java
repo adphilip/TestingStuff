@@ -7,6 +7,7 @@ import java.util.ArrayList;
 
 import factory.Shape;
 import factory.ShapeFactory;
+import singleton.SingleObject;
 import testing.Animals;
 import testing.Cat;
 import testing.NoRepeatedCharInAString;
@@ -91,7 +92,7 @@ public class TestingStuff {
 		
 		/**
 		 * Factory Design patterns
-		 * 
+		 * Creational Patterns (Structural patterns,Behavioral Patterns)
 		 */
 		System.out.println("\n------Factory Design-------\n");
 		
@@ -104,7 +105,16 @@ public class TestingStuff {
 		//interface shape = new object CIRCLE;
 		Shape shape2 =  shapeFact.getShape("CIRCLE"); // return new Circle ();
 		shape2.draw();
-
+		
+		
+		/**
+		 * Singleton Design patterns
+		 * Creational Patterns (Structural patterns,Behavioral Patterns)
+		 */
+		
+		System.out.println("\n------Singleton Pattern-------\n");
+		SingleObject object = SingleObject.getInstSO();
+		object.ShowSomething();
 	}
 
 }
