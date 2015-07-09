@@ -5,6 +5,7 @@
 
 import java.util.ArrayList;
 
+import arraysPlay.ArraySort;
 import MVC.StudentController;
 import MVC.StudentModel;
 import MVC.StudentView;
@@ -139,6 +140,14 @@ public class TestingStuff {
 		   controllerStudent.setStudentNameController("Vasile");
 		   controllerStudent.updateView();
 		   
+		   System.out.println("\n------Array Sort-------\n");
+		   ArraySort aInst = new ArraySort();
+		   aInst.sortArray(aInst.getArray());
+		   System.out.println("Array sortat: ");
+		   
+		   //STATIC WAY ?
+		   aInst.printArray(aInst.getArray());
+		 
 	}
 
 }
